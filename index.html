@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boom & Cool Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="banner-div">
+        <h1 class="top-banner">Boom & Cool Converter</h1>
+    </div>
+
+
+    <!-- first section starts here ---------------------------------------------------------------------------------------->
+
+
+    <div id="section">
+        <div class="main-div">
+            <h2>KG to Ton</h2>
+
+            <input placeholder="Write your numbers here" type="number" name="" id="input"
+                oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+            <p>Ton =
+                <span id="ton_output"></span>
+            </p>
+        </div>
+        <div class="main-div">
+            <h2>Ton to KG</h2>
+
+            <input placeholder="Write your numbers here" type="number" name="" id="input"
+                oninput="ton2kgconverter(this.value)" onchange="ton2kgconverter(this.value)">
+            <p>KG =
+                <span id="ton2kg"></span>
+
+            </p>
+        </div>
+        <div class="main-div">
+            <h2>MG to KG</h2>
+
+            <input placeholder="Write your numbers here" type="number" name="" id="input" oninput="mg2kg(this.value)"
+                onchange="mg2kg(this.value)">
+            <p>KG =
+                <span id="mg2kg"></span>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Second section starts here ---------------------------------------------------------------------------------------->
+
+
+    <div id="section">
+        <div class="main-div">
+            <h2>Petrol Price</h2>
+
+            <input placeholder="Input Petrol (Liter)" type="number" name="" id="input" oninput="petrol(this.value)"
+                onchange="petrol(this.value)">
+            <p>Petrol Price BDT =
+                <span id="petrol"></span>
+            </p>
+        </div>
+        <div class="main-div">
+            <h2>Disel Price</h2>
+
+            <input placeholder="Input  Disel (Liter)" type="number" name="" id="input" oninput="disel(this.value)"
+                onchange="disel(this.value)">
+            <p>Disel Price BDT =
+                <span id="disel"></span>
+            </p>
+        </div>
+        <div class="main-div">
+            <h2>Octain Price</h2>
+
+            <input placeholder="Input Disel (Liter)" type="number" name="" id="input" oninput="octain(this.value)"
+                onchange="octain(this.value)">
+            <p>Petrol Price BDT =
+                <span id="mg2kg"></span>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Third section starts here ---------------------------------------------------------------------------------------->
+
+
+    <div id="section">
+        <div class="main-div">
+            <h2 style="padding-left: 123px;">Inch to Feet</h2>
+
+            <input placeholder="Input Inches Value" type="number" name="" id="input" oninput="inch2feet(this.value)"
+                onchange="inch2feet(this.value)">
+            <p>Feet =
+                <span id="inch2feet"></span>
+            </p>
+        </div>
+        <div class="main-div">
+            <h2 style="padding-left: 120px;">Feet to Meter</h2>
+
+            <input placeholder="Input Meters Value" type="number" name="" id="input" oninput="feet2meter(this.value)"
+                onchange="feet2meter(this.value)">
+            <p>Meter =
+                <span id="feet2meter"></span>
+            </p>
+        </div>
+        <div class="main-div">
+            <h2 style="padding-left: 90px;">Meter to Kilometer</h2>
+
+            <input placeholder="Input Disel (Liter)" type="number" name="" id="input"
+                oninput="meter2kilometer(this.value)" onchange="meter2kilometer(this.value)">
+            <p>Kilometer =
+                <span id="meter2kilometer"></span>
+            </p>
+        </div>
+    </div>
+
+
+
+    <script src="test.js"></script>
+</body>
+
+</html>
